@@ -1,0 +1,22 @@
+[1/10] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/app_main.c.obj
+D:/finalna/4_fresh_start_squareline/main/app_main.c:33:20: warning: 'SENSORS_TAG' defined but not used [-Wunused-variable]
+   33 | static const char *SENSORS_TAG = "sensors";
+      |                    ^~~~~~~~~~~
+D:/finalna/4_fresh_start_squareline/main/app_main.c:32:20: warning: 'MAIN_TAG' defined but not used [-Wunused-variable]
+   32 | static const char *MAIN_TAG = "main";
+      |                    ^~~~~~~~
+[2/10] Performing build step for 'bootloader'
+[1/1] cmd.exe /C "cd /D D:\finalna\4_fresh_start_squareline\build\bootloader\esp-idf\esptool_py && d:\espressif\.espressif\python_env\idf5.0_py3.11_env\Scripts\python.exe D:/espressif/esp/v5.0.2/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 D:/finalna/4_fresh_start_squareline/build/bootloader/bootloader.bin"
+Bootloader binary size 0x6700 bytes. 0x900 bytes (8%) free.
+[3/8] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/ultrasonic.c.obj
+[4/8] Linking C static library esp-idf\main\libmain.a
+[5/8] Generating ld/sections.ld
+[6/8] Linking CXX executable esp32_gui.elf
+[7/8] Generating binary image from built executable
+esptool.py v4.7.0
+Creating esp32 image...
+Merged 25 ELF sections
+Successfully created esp32 image.
+Generated D:/finalna/4_fresh_start_squareline/build/esp32_gui.bin
+[8/8] cmd.exe /C "cd /D D:\finalna\4_fresh_start_squareline\build\esp-idf\esptool_py && d:\espressif\.espressif\python_env\idf5.0_py3.11_env\Scripts\python.exe D:/espressif/esp/v5.0.2/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app D:/finalna/4_fresh_start_squareline/build/partition_table/partition-table.bin D:/finalna/4_fresh_start_squareline/build/esp32_gui.bin"
+esp32_gui.bin binary size 0x10d2c0 bytes. Smallest app partition is 0x177000 bytes. 0x69d40 bytes (28%) free.

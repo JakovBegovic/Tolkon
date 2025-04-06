@@ -1,0 +1,18 @@
+[1/12] Performing build step for 'bootloader'
+[1/1] cmd.exe /C "cd /D D:\finalna\4_fresh_start_squareline\build\bootloader\esp-idf\esptool_py && d:\espressif\.espressif\python_env\idf5.0_py3.11_env\Scripts\python.exe D:/espressif/esp/v5.0.2/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 D:/finalna/4_fresh_start_squareline/build/bootloader/bootloader.bin"
+Bootloader binary size 0x6700 bytes. 0x900 bytes (8%) free.
+[2/10] Building C object esp-idf/gui/CMakeFiles/__idf_gui.dir/squareline/project/screens/ui_Warning_Scr.c.obj
+[3/10] Building C object esp-idf/gui/CMakeFiles/__idf_gui.dir/squareline/project/screens/ui_Home_Scr.c.obj
+[4/10] Building C object esp-idf/gui/CMakeFiles/__idf_gui.dir/squareline/project/ui_helpers.c.obj
+[5/10] Linking C static library esp-idf\gui\libgui.a
+[6/10] Linking C static library esp-idf\main\libmain.a
+[7/10] Generating ld/sections.ld
+[8/10] Linking CXX executable esp32_gui.elf
+[9/10] Generating binary image from built executable
+esptool.py v4.7.0
+Creating esp32 image...
+Merged 25 ELF sections
+Successfully created esp32 image.
+Generated D:/finalna/4_fresh_start_squareline/build/esp32_gui.bin
+[10/10] cmd.exe /C "cd /D D:\finalna\4_fresh_start_squareline\build\esp-idf\esptool_py && d:\espressif\.espressif\python_env\idf5.0_py3.11_env\Scripts\python.exe D:/espressif/esp/v5.0.2/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app D:/finalna/4_fresh_start_squareline/build/partition_table/partition-table.bin D:/finalna/4_fresh_start_squareline/build/esp32_gui.bin"
+esp32_gui.bin binary size 0x10d280 bytes. Smallest app partition is 0x177000 bytes. 0x69d80 bytes (28%) free.

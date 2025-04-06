@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+D:/finalna/4_fresh_start_squareline/build/CMakeFiles/bootloader
+D:/finalna/4_fresh_start_squareline/build/CMakeFiles/bootloader.rule
+D:/finalna/4_fresh_start_squareline/build/CMakeFiles/bootloader-complete.rule
+D:/finalna/4_fresh_start_squareline/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+D:/finalna/4_fresh_start_squareline/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+D:/finalna/4_fresh_start_squareline/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+D:/finalna/4_fresh_start_squareline/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+D:/finalna/4_fresh_start_squareline/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+D:/finalna/4_fresh_start_squareline/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+D:/finalna/4_fresh_start_squareline/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

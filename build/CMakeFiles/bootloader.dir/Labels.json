@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/finalna/4_fresh_start_squareline/build/CMakeFiles/bootloader"
+		},
+		{
+			"file" : "D:/finalna/4_fresh_start_squareline/build/CMakeFiles/bootloader.rule"
+		},
+		{
+			"file" : "D:/finalna/4_fresh_start_squareline/build/CMakeFiles/bootloader-complete.rule"
+		},
+		{
+			"file" : "D:/finalna/4_fresh_start_squareline/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
+		},
+		{
+			"file" : "D:/finalna/4_fresh_start_squareline/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
+		},
+		{
+			"file" : "D:/finalna/4_fresh_start_squareline/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
+		},
+		{
+			"file" : "D:/finalna/4_fresh_start_squareline/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
+		},
+		{
+			"file" : "D:/finalna/4_fresh_start_squareline/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
+		},
+		{
+			"file" : "D:/finalna/4_fresh_start_squareline/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
+		},
+		{
+			"file" : "D:/finalna/4_fresh_start_squareline/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"bootloader"
+		],
+		"name" : "bootloader"
+	}
+}
